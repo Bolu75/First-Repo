@@ -1,0 +1,292 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #16171d;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+}
+
+span {
+  color: #f5c249;
+}
+
+.logo-list {
+  display: flex;
+  gap: 2em;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+li {
+  list-style: none;
+  color: #5e626e;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+.nav-btn {
+  margin-right: 60px;
+  padding-top: -15px;
+}
+
+.connect,
+.connection {
+  background-color: #f5c249;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+/* .connection {
+  background-color: #f5c249;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+} */
+
+.contents {
+  padding: 20px 120px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-image {
+  background-size: contain;
+}
+
+.header-content {
+  width: 35%;
+  margin-top: 50px;
+}
+
+.header-content h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header-content p {
+  /* margin-top: 10px; */
+  /* margin-bottom: 50px; */
+
+  margin: 10px 0px 50px 0px;
+}
+
+.header-content button {
+  margin-top: 100px;
+}
+
+.fa-hamburger {
+  color: white;
+}
+.space {
+  height: 42vh;
+  width: 24vw;
+  background-color: #16171d;
+  color: antiquewhite;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.header-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.box-one,
+.box-two,
+.box-three {
+  /* background-color: #16171d;
+  color: antiquewhite;
+  border-radius: 20px;
+  border: 1px solid white; */
+}
+
+.space div {
+  padding: 50px 35px 20px 35px;
+  text-align: center;
+}
+
+/* .the{
+  text-align: center;
+} */
+
+/* .secure {
+  margin-top: 20px;
+}
+.flexible {
+  margin-top: 20px;
+}
+.the {
+  margin-top: 10px;
+} */
+.fa-star {
+  color: yellow;
+  margin-bottom: 10px;
+}
+.fa-seedling {
+  color: yellow;
+  margin-bottom: 10px;
+}
+.fa-wine-glass-alt {
+  color: yellow;
+  margin-bottom: 10px;
+}
+.run {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sin {
+  height: 70vh;
+  /* width: 25vw; */
+  width: 100%;
+  border: 1px solid black;
+  background-color: #5e626e;
+  text-align: center;
+  /* margin: 30px 30px; */
+  border-radius: 15px;
+  padding: 10px;
+}
+.no {
+  background-color: #f5c249;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  /* padding: 10px 55px; */
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+}
+.pass {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 55px;
+  font-weight: bold;
+  margin: 15px 0px;
+  padding: 10px 40px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.text-section {
+  /* width: 50%; */
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.img-section {
+  width: 50%;
+}
+
+form {
+  border-radius: 15px;
+  background-color: #2a2c34;
+  height: 50vh;
+  width: 70%;
+  padding: 35px 30px;
+}
+
+input[type="text"] {
+  margin: 15px 0px;
+  display: block;
+  width: 100%;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  padding: 3px;
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background-color: #f5c249;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+
+/* .imgCrypt{
+  width: 50%;
+}
+
+.formCrypt{
+  width: 50%;
+} */
+.classified {
+  height: 60vh;
+  background-color: #2a2c34;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.classified span {
+  color: rgba(255, 255, 255, 0.494);
+}
+.classified p {
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+.classified button {
+  margin: -180px;
+  padding: 12px 1px;
+  border-radius: 5px;
+  background-color: #f5c249;
+  width: 200px;
+  margin-left: 38px;
+  border: none;
+  margin-top: -25px;
+  color: white;
+}
+hr {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 250px;
+}
+.last {
+  margin-top: 25px;
+}
+.icons i {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.494);
+}
+.crib p {
+  color: rgba(255, 255, 255, 0.494);
+}

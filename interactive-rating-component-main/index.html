@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        background-color: hsl(216, 12%, 8%);
+        height: 100%;
+        width: 100%;
+      }
+      .content {
+        background-color: hsl(213, 19%, 18%);
+        height: 50vh;
+        width: 24vw;
+        margin: 150px auto;
+        border-radius: 20px;
+      }
+      .lamp {
+        border: none;
+        background-color: grey;
+        border-radius: 40px;
+        width: 35px;
+        height: 35px;
+        margin-top: 30px;
+        margin-left: 30px;
+      }
+      .how {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+        /* margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 15px; */
+      }
+      .circles {
+        margin-top: 15px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+       padding: 0px 10px;
+      }
+      .please {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+        /* margin-top: -20px;
+        font-size: 12.5px; */
+      }
+      .mit {
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 50px;
+        background-color: hsl(25, 97%, 53%);
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        justify-content: center;
+        border: none;
+      }
+      .submit {
+        justify-content: center;
+        text-align: center;
+      }
+      .text {
+        margin: 0px 15px;
+      }
+      .one {
+        border: none;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        background-color: grey;
+        color: white;
+      }
+      .two {
+        border: none;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        background-color: grey;
+        color: white;
+      }
+      .three {
+        border: none;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        background-color: grey;
+        color: white;
+      }
+      .four {
+        border: none;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        background-color: grey;
+        color: white;
+      }
+      .five {
+        border: none;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        background-color: grey;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="star">
+          <button class="lamp">
+            <img src="./images/icon-star.svg" alt="img" class="bright" />
+          </button>
+        </div>
+        <div class="text">
+          <h3 class="how">How did we do?</h3>
+          <p class="please">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering! this text
+            is far from reality
+          </p>
+        </div>
+
+        <div class="circles">
+          <button class="one">1</button>
+          <button class="two">2</button>
+          <button class="three">3</button>
+          <button class="four">4</button>
+          <button class="five">5</button>
+        </div>
+        <div class="submit"><button class="mit">SUBMIT</button></div>
+      </div>
+    </div>
+  </body>
+</html>

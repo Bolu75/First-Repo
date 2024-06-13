@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Room homepage</title>
+
+    <style>
+      * {
+        padding: 0;
+      }
+      .grid-diff-one {
+        display: flex;
+        width: 100%;
+        /* display: grid;
+        grid-template-columns: (2, 1fr);
+        grid-template-rows: (1, minmax(150px auto)); */
+      }
+      .first-box {
+        /* background-image: url('./images/desktop-image-hero-1.jpg'); */
+        /* grid-column: 1/2;
+        grid-row: 1/2; */
+        background-color: red;
+        width: 60%;
+        background-image: url("./images/desktop-image-hero-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .second-box {
+        /* grid-column: 2/3;
+        grid-row: 1/2; */
+        width: 40%;
+        background-color: #ffffff;
+      }
+      .second-box-texts {
+        padding: 20px 50px;
+      }
+      .first-text {
+        color: #010101;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .second-text {
+        color: #0a0a0a;
+      }
+      .third-text {
+        justify-content: space-between;
+      }
+      .grid-diff-two {
+        display: grid;
+        grid-template-columns: (4, 1fr);
+        grid-template-rows: (1, minmax(150px auto));
+      }
+      .third-box {
+        grid-row: 1/2;
+        grid-column: 1/2;
+      }
+      .fourth-box {
+        grid-row: 1/2;
+        grid-column: 2/4;
+      }
+      .fourth-box-texts {
+        padding: 5px 10px;
+      }
+      .fourth-text {
+        color: #010101;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .fifth-text {
+        color: #0a0a0a;
+      }
+      .fifth-box {
+        grid-row: 1/2;
+        grid-column: 4/5;
+      }
+
+      *{
+        margin:0px;
+        padding:0px;
+      }
+
+      @media (min-width: 319px) and (max-width: 600px) {
+        .grid-diff-one {
+          display: block;
+        }
+        .grid-diff-two {
+          display: block;
+        }
+       
+        .first-box {
+          background-image: url("./images/mobile-image-hero-1.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 300px;
+          width: 100%;
+        }
+        .first-text {
+          font-size: 30px;
+          text-align: center;
+        }
+
+        .second-box{
+          width:100%;
+          padding:10px 0px;
+        }
+        
+        .second-box-texts{
+          padding: 0px;
+        }
+
+        .second-text{
+          margin-top: 20px;
+        }
+       
+        .third-box img{
+          width:100%;
+          background-position: center;
+          background-size: contain;
+        }
+
+        .fourth-text{
+          font-size: 30px;
+          text-align: center;
+        }
+
+        .fifth-text{
+          margin-top: 20px;
+        }
+
+        .fifth-box img{
+          width:100%;
+          background-position: center;
+          background-size: contain;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="grid-diff-one">
+        <div class="first-box">
+          <!-- <img src="./images/desktop-image-hero-1.jpg" alt="" /> -->
+        </div>
+        <div class="second-box">
+          <div class="second-box-texts">
+            <p class="first-text">Discover innovative ways to decorate</p>
+            <p class="second-text">
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <p class="third-text">Shop Now</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-diff-two">
+        <div class="third-box">
+          <img src="./images/image-about-dark.jpg" alt="" class="image-two" />
+        </div>
+        <div class="fourth-box">
+          <div class="fourth-box-texts">
+            <p class="fourth-text">About our furniture</p>
+            <p class="fifth-text">
+              Our multifunctional collection blends design and function to suit
+              your individual taste. Make each room unique, or pick a cohesive
+              theme that best express your interests and what inspires you. Find
+              the furniture pieces you need, from traditional to contemporary
+              styles or anything in between. Product specialists are available
+              to help you create your dream space.
+            </p>
+          </div>
+        </div>
+        <div class="fifth-box">
+          <img
+            src="./images/image-about-light.jpg"
+            alt=""
+            class="image-three"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

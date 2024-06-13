@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+        .parent > p{
+            font-size:2em;
+            color:blue;
+        }
+
+        .parent + p{
+            background-color: coral;
+        }
+
+        .general > p ~ p{
+            font-size: 1.5em;
+            color: rgb(0, 229, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div>
+            <p>Lorem ipsum dolor.</p>
+        </div>
+        <div>
+            
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod ea reiciendis dignissimos hic ipsam eum dolorem deserunt, vel nemo reprehenderit sed porro repellendus voluptatum libero! Ipsa architecto rerum repudiandae.</p>
+        <h2>Transition</h2>
+        <div>
+            <p>Lorem, ipsum.</p>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis et aperiam.</div>
+        </div>
+    </div>
+    <p>Favour Badejo</p>
+    <p>Bolu Timilehin</p>
+    
+    <div class="general">
+      <p>Bolu Timilehin</p>  
+      <p>Bolu Timilehin 1</p> 
+      <p>Bolu Timilehin 2</p> 
+      <p>Bolu Timilehin 3  </p> 
+      <section>
+        <p>name</p>
+      </section>
+      <p>sect3</p>
+    </div>
+    
+</body>
+</html>

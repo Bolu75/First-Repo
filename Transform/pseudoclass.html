@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* a:link{
+            color: rgb(230, 22, 22);
+        } */
+
+      a:active {
+        color: yellow;
+      }
+
+      a:hover {
+        color: purple;
+      }
+
+      a:visited {
+        color: pink;
+      }
+
+      h2::first-line{
+        background-color: red;
+
+      }
+
+      h2::selection{
+        background-color: yellow;
+        color: green;
+      }
+
+      h2::first-letter{
+        font-size: 3em;
+        font-style: oblique;
+      }
+/* 
+      li::before{
+       
+      } */
+
+      li::after{
+content:"✔"
+      }
+
+      li::marker{
+         content:"💕"
+      }
+
+      li:nth-child(3n){
+        color:red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="#">Home</a>
+    </div>
+
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores vel non consectetur, aut excepturi sint adipisci labore explicabo fugiat, illo laudantium debitis deserunt soluta maxime vitae corporis iusto? Eum.
+        </h2>
+    <ul>
+        <li>Name1</li>
+        <li>Name2</li>
+        <li>Name3</li>
+        <li>Name4</li>
+        <li>Nme5</li>
+        <li>Name6</li>
+    </ul>
+  </body>
+</html>

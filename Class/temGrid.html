@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .content {
+        max-width: 960px;
+        margin: 0 auto;
+        display: grid;
+        /* grid-template-columns: 33.3% 33.3% 33.3%; */
+        /* grid-template-columns: 20% 50% 30%; */
+        /* grid-template-columns: 2fr 1fr 2fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-auto-rows: 200px; */
+        /* grid-auto-rows: minmax(200px, auto); */
+        /* grid-template-rows: 200px 300px 400px 200px; */
+        /* grid-template-rows: repeat(5, minmax(200px, auto)); */
+        /* column-gap: 10px;
+        row-gap: 15px; */
+        /* gap: 20px 10px; */
+      }
+
+      .content div {
+        background-color: aqua;
+        padding: 20px;
+      }
+
+      .content div:nth-child(even) {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+     <div class="content">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          voluptas architecto velit, voluptate, expedita harum labore culpa
+          laborum libero beatae tempora, molestiae perferendis. Ducimus odio vel
+          nulla delectus similique voluptatum! Et recusandae reiciendis vel
+          quidem deleniti consequuntur similique odit mollitia minima, fuga sed
+          nam sapiente nisi quos ullam atque. Odit dolor labore modi quos
+          reprehenderit quidem magnam distinctio a aliquid!Lorem Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Doloribus libero
+          laborum, accusamus beatae nemo neque optio natus aliquam in assumenda
+          delectus expedita voluptatum consectetur vitae modi. Minus
+          perspiciatis repellat alias.
+        </div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+        <div>Eight</div>
+        <div>Nine</div>
+      </div> 
+  </body>
+</html>

@@ -1,0 +1,116 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.content {
+  background-color: hsla(0, 0%, 41%, 0.048);
+  height: 100vh;
+  width: 70vw;
+  margin: auto;
+}
+.nerve {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 40px;
+  background-color: hsla(0, 0%, 41%, 0.007);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.oyin {
+  display: flex;
+  gap: 2em;
+  font-size: 10px;
+  list-style: none;
+  margin-top: 13.5px;
+  margin-right: 350px;
+  color: hsl(0, 0%, 41%);
+}
+.oyindamola {
+  display: flex;
+  gap: 2em;
+  font-size: 10px;
+  list-style: none;
+  margin-top: 13.5px;
+  color: hsl(0, 0%, 41%);
+}
+.one {
+  margin-left: -40px;
+}
+.nap {
+  margin-top: 8px;
+  color: hsl(0, 0%, 8%);
+}
+.regis {
+  width: 90px;
+  height: 30px;
+  margin-top: -12px;
+  font-size: 10px;
+  border-radius: 10px;
+  border-color: hsla(0, 0%, 41%, 0.007);
+  color: hsl(0, 0%, 41%);
+}
+.oga {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box {
+  height: 50vh;
+  width: 50vw;
+}
+.hero {
+  width: 25vw;
+  height: 75vh;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.mote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 53px;
+  margin: 0px 80px;
+  margin-top: 100px;
+  color: hsl(0, 0%, 8%);
+}
+.sync {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 30px 80px;
+  color: hsl(0, 0%, 41%);
+}
+.ore {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 80px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  border: none;
+}
+.oriental {
+  width: 4.7rem;
+  margin-top: 75px;
+  margin-left: 80px;
+}
+.intercontinental {
+  width: 3.2rem;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+.fourpoints {
+  width: 4rem;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+.sheraton {
+  width: 3.5rem;
+  margin-top: 75px;
+  margin-left: 20px;
+}

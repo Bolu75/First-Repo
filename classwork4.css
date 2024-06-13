@@ -1,0 +1,33 @@
+.father {
+  width: 50%;
+  height: 100%;
+  margin: 150px auto;
+}
+
+.shapes {
+  width: 150px;
+  height: 100px;
+}
+
+p{
+   
+    display:inline-block;
+}
+
+.shapeone {
+  background-color: blue;
+  display: inline-block;
+}
+.shapetwo {
+  background-color: purple;
+  display: inline-block;
+}
+.shapethree {
+  background-color: green;
+  display: inline-block;
+}
+
+.shapefour {
+  display: block;
+  /* text-align: center; */
+}

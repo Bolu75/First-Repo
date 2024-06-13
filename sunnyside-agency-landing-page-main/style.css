@@ -1,0 +1,320 @@
+/* 
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+
+### Neutral
+
+- Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 600
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700, 900
+
+## Icons
+
+We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  gap: 2em;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 800px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3dbeff;
+  padding: 20px;
+}
+
+.header-img img {
+  width: 100%;
+}
+.nav-button button {
+  color: black;
+  border-radius: 20px;
+  font-size: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: 7px;
+  border: none;
+  font-weight: bold;
+  padding: 2px;
+  background-color: white;
+}
+.nav-logo {
+  color: white;
+  font-size: 30px;
+
+  margin-top: 10px;
+  font-weight: bold;
+}
+.creatives h2 {
+  color: white;
+  position: absolute;
+  top: 80px;
+  right: 575px;
+  font-weight: 25px;
+}
+
+.sunny-img {
+  width: 100%;
+}
+
+.sunny-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contents,
+.cont {
+  padding: 100px;
+  margin-top: 25px;
+}
+.header-positioning h1 {
+  position: absolute;
+  bottom: 450px;
+  right: 425px;
+  color: white;
+  font-size: 50px;
+}
+
+.arrow {
+  position: absolute;
+  top: 450px;
+  left: 650px;
+}
+.contents h2 {
+  font-size: 50px;
+}
+.learn,
+.lurn {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.we,
+.collaborative {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.522);
+}
+.cont h2 {
+  font-size: 50px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex img {
+  height: 80px;
+  border-radius: 50px;
+  margin-left: 180px;
+  margin-top: 200px;
+}
+.wen {
+  margin-top: 60px;
+  text-align: center;
+  width: 50%;
+  margin-left: 100px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.testimonial {
+  color: rgba(0, 0, 0, 0.39);
+  position: absolute;
+  left: 530px;
+  top: 2650px;
+  font-size: 25px;
+}
+.man {
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.39);
+  margin-bottom: 100px;
+}
+.may {
+  text-align: center;
+  margin-top: 55px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.milk {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.oran {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.cone {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.sugar {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+.amen {
+  width: 100%;
+}
+.bottom {
+  background-color: #90d4c5;
+  width: 100%;
+  height: 50vh;
+}
+.bottom-flex {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  margin-top: 40px;
+}
+.logo-flex {
+  display: flex;
+  gap: 2em;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.conny {
+  padding-top: 50px;
+  margin-left: 600px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #297261;
+}
+.graphics {
+  position: absolute;
+  bottom: -1700px;
+  left: 200px;
+  font-size: 35px;
+  color: #21544b;
+}
+.great {
+  position: absolute;
+  bottom: -1800px;
+  left: 150px;
+  font-size: 15px;
+  width: 25%;
+  text-align: center;
+  color: #4a8476;
+}
+.phot {
+  position: absolute;
+  bottom: -1700px;
+  left: 900px;
+  font-size: 35px;
+  color: #1b556b;
+}
+.increase {
+  position: absolute;
+  bottom: -1800px;
+  left: 850px;
+  font-size: 15px;
+  width: 25%;
+  text-align: center;
+  color: #3686af;
+}
+.col {
+  color: #60a495;
+}
+
+@media (min-width: 319px) and (max-width: 600px) {
+  .ul {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+  .sunny-content {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+    padding: 45px;
+  }
+
+  .cont {
+    display: block;
+  }
+
+  .download {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .content-two img {
+    width: 100%;
+  }
+
+  .right {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .card {
+    left: 14rem;
+    width: 150px;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    bottom: 29.8rem;
+    margin-left: 0px;
+    background-color: rgb(176, 225, 241);
+  }
+}

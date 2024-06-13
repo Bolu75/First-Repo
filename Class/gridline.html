@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .content {
+        max-width: 960px;
+        margin: 0px auto;
+        display: grid;
+        text-align: center;
+        /* grid-template-columns: 33.3% 33.3% 33.3%; */
+        /* grid-template-columns: 20% 50% 30%; */
+        /* grid-template-columns: 2fr 1fr 2fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-auto-rows: 200px; */
+        /* grid-auto-rows: minmax(200px, auto); */
+        /* grid-template-rows: 200px 300px 400px 200px; */
+        grid-template-rows: repeat(7, minmax(150px, auto));
+        column-gap: 10px;
+        row-gap: 15px;
+        grid-template-areas: header header header header ;
+        /* gap: 20px 10px; */
+      }
+
+      .content div {
+        background-color: aqua;
+        padding: 20px;
+      }
+
+      .content div:nth-child(even) {
+        background-color: gray;
+      }
+
+      .one {
+       
+        grid-column: 1/8;
+      }
+
+      .two {
+      
+        grid-column: 1/2;
+        grid-row: 2/6;
+      }
+
+      .three {
+        
+        grid-column: 2/8;
+        grid-row: 2/4;
+      }
+
+      .four {
+      
+        grid-column: 2/3;
+        grid-row: 4/6;
+      }
+
+      .five {
+        
+        grid-column: 3/8;
+        grid-row: 4/6;
+      }
+
+      .six {
+        
+        grid-column: 1/8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="one">Header</div>
+      <div class="two">Sidebar</div>
+      <div class="three">Content-1</div>
+      <div class="four">content-2</div>
+      <div class="five">Content-3</div>
+      <div class="six">Footer</div>
+    </div>
+  </body>
+</html>

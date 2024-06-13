@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <style>
+      .lr-diff {
+        display: flex;
+        justify-content: space-between;
+      }
+      .flexing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .card-one {
+        position: absolute;
+        left: 150px;
+        bottom: 220px;
+      }
+      .card-two {
+        position: absolute;
+        left: 250px;
+        bottom: -80px;
+      }
+      .con {
+        background-color: rgb(53, 8, 53);
+        color: white;
+        width: 100px;
+      }
+      .right {
+        width: 30%;
+        margin: 250px auto;
+        margin-right: 120px;
+      }
+      .jane,
+      .mm,
+      .yy,
+      .eg,
+      .con,
+      .zero {
+        margin-top: 10px;
+      }
+      .con {
+        width: 100%;
+        padding: 12.5px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      .exp {
+        margin-top: 20px;
+      }
+      .cv {
+        margin-top: 20px;
+      }
+      .mm {
+        width: 40px;
+      }
+      .yy {
+        width: 40px;
+      }
+      .eg {
+        width: 25.5%;
+      }
+      .card {
+        margin-top: 10px;
+      }
+      .ro {
+        margin-top: 20px;
+      }
+      .fle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="lr-diff">
+        <div class="left">
+          <img src="./images/bg-main-desktop.png" alt="" />
+          <div>
+            <img src="./images/bg-card-front.png" alt="" class="card-one" />
+          </div>
+          <img src="./images/bg-card-back.png" alt="" class="card-two" />
+        </div>
+
+        <div class="right">
+          <div class="cards">
+            <div class="flexing">
+              <label for="card">CARDHOLDER NAME</label>
+              <input
+                type="text"
+                placeholder=" e.g. Jane Appleseed"
+                id="card"
+                class="jane"
+              />
+              <label for="" class="ro">CARD NUMBER</label>
+              <input
+                type="text"
+                placeholder=" e.g. 1234 5678 9123 0000"
+                class="zero"
+              />
+            </div>
+
+            <div>
+              <div class="fle">
+                <label for="mm" class="exp">EXP. DATE(MM/YY)</label>
+                <input type="text" placeholder="MM" id="mm" class="mm" />
+              </div>
+              <input type="text" placeholder="YY" class="yy" />
+              <label for="" class="cv">CVC</label>
+              <input type="text" placeholder=" e.g. 123" class="eg" />
+              <div><button class="con">Confirm</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

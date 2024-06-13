@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns:repeat(5, 2fr) ; */
+            grid-template-columns: 2fr 1fr 2fr 1fr;
+            /* grid-auto-rows: 100px; */
+            grid-template-rows: minmax(100px, auto);
+            border: 2px solid brown;
+        }
+        .contain{
+            display: grid;
+            /* grid-template-columns:repeat(5, 2fr) ; */
+            grid-template-columns: 2fr 1fr ;
+            /* grid-auto-rows: 100px; */
+            grid-template-rows:repeat(6, minmax(50px, auto)) ;
+            border: 2px solid brown;
+            column-gap: 20px;
+            row-gap: 35px;
+        }
+
+        .one{
+            grid-column: 1/3;
+            grid-row:1/2;
+        }
+
+        .two{
+            grid-column: 1/2;
+        }
+
+        .three{
+            grid-column: 2/3;
+        }
+
+        .four{
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur asperiores repellendus cum! Reiciendis ipsum mollitia delectus adipisci quod voluptas, non exercitationem unde minima dolore nam incidunt aliquam maxime soluta eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit excepturi quo animi quia, cum voluptate officiis, ea quisquam ducimus inventore quos debitis consectetur!!</p>
+       
+
+    </div>
+    <div class="contain">
+        <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, corrupti unde magni vero sunt iste error. Aspernatur et placeat similique velit quidem vero, eos aliquam provident harum doloribus culpa temporibus?
+            Molestias, veniam earum magni eos saepe atque amet odit, facilis dolor cum ipsa, aliquid doloremque? Fuga earum, dolore explicabo eos tempora impedit? Aperiam provident laboriosam animi quisquam aliquam non itaque.
+            Alias nihil eos maxime placeat, non ut neque quae sequi. Dolores dolor earum cum. Laborum aut deserunt, hic, itaque maiores provident necessitatibus beatae ullam nihil et numquam, delectus corrupti autem!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam optio aliquam quasi eaque officia animi, repellat atque sunt rerum, quibusdam ducimus eum rem quos voluptatum praesentium quisquam consequuntur ad in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi aliquid, aliquam sit aspernatur doloribus animi ut iusto cum nemo est veniam voluptas, vitae quasi cumque quaerat praesentium non maxime!</p>
+
+        <p style="background-color: red;" class="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime excepturi adipisci temporibus molestiae quis corporis perferendis, nesciunt, accusamus pariatur at deserunt nihil nemo sequi ea, incidunt alias repudiandae autem sunt.
+        Vel molestias ea laboriosam eligendi fuga tenetur corrupti, labore distinctio soluta debitis aliquam accusantium ipsum id porro quod dignissimos exercitationem earum inventore, provident omnis quae, dolores architecto perferendis iste. Quod.</p>
+        <p style="background-color: green;" class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, corrupti unde magni vero sunt iste error. Aspernatur et placeat similique velit quidem vero, eos aliquam provident harum doloribus culpa temporibus?
+            Molestias, veniam earum magni eos saepe atque amet odit, facilis dolor cum ipsa, aliquid doloremque? Fuga earum, dolore explicabo eos tempora impedit? Aperiam provident laboriosam animi quisquam aliquam non itaque.
+            Alias nihil eos maxime placeat, non ut neque quae sequi. Dolores dolor earum cum. Laborum aut deserunt, hic, itaque maiores provident necessitatibus beatae ullam nihil et numquam, delectus corrupti autem!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam optio aliquam quasi eaque officia animi, repellat atque sunt rerum, quibusdam ducimus eum rem quos voluptatum praesentium quisquam consequuntur ad in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem commodi aliquid, aliquam sit aspernatur doloribus animi ut iusto cum nemo est veniam voluptas, vitae quasi cumque quaerat praesentium non maxime!</p>
+
+        <p class="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime excepturi adipisci temporibus molestiae quis corporis perferendis, nesciunt, accusamus pariatur at deserunt nihil nemo sequi ea, incidunt alias repudiandae autem sunt.
+        Vel molestias ea laboriosam eligendi fuga tenetur corrupti, labore distinctio soluta debitis aliquam accusantium ipsum id porro quod dignissimos exercitationem earum inventore, provident omnis quae, dolores architecto perferendis iste. Quod.</p>
+    </div>
+</body>
+</html>

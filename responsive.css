@@ -1,0 +1,27 @@
+@media (min-width: 270px) and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    
+}
+
+@media (min-width: 601px) and (max-width: 720px) {
+    body{
+        background-color: rgb(22, 236, 168);
+    }
+    
+}
+
+@media (min-width: 721px) and (max-width: 800px) {
+    body{
+        background-color: rgb(131, 233, 14);
+    }
+    
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    body{
+        background-color: rgb(154, 21, 249);
+    }
+    
+}

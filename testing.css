@@ -1,0 +1,62 @@
+/* .style {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(0, 0, 255);
+  background-image: radial-gradient(blue, pink, yellow, brown);
+}
+.cool {
+  width: 300px;
+  height: 300px;
+  border: 1px solid green;
+  background-image: linear-gradient(to center, pink, green, orange, red, white);
+}
+.wonderful{
+  width: 300px; 
+  height: 300px; 
+  border: 1px solid blue; 
+  background-image: conic-gradient(blue, green, yellow, pink);
+} */
+
+/* .overflow{
+  height: 150px;
+  width: 300px;
+  margin-bottom: 50px;
+  background-color: #b4f066; */
+  /* overflow: hidden; */
+  /* overflow: visible; */
+  /* overflow: scroll; */
+  /* overflow: auto;
+} */
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.backImg{
+  background-repeat:none;
+  background-size: cover;
+  height: 300px;
+  background-image: url('./img/rock.jpg');
+
+}
+
+ul{
+  padding: 20px;
+  display: flex;
+gap: 20px;
+}
+
+li{
+  list-style: none;
+  
+}
+
+.center{
+  padding: 30px;
+  text-align: center;
+}
+
+.center h2{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,105 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.body {
+  background-color: rgba(173, 216, 230, 0.589);
+  height: 100%;
+  width: 100%;
+}
+.container {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.box {
+  height: 70vh;
+  width: 18vw;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  font-family: cursive;
+  color: hsl(0, 0%, 95%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  font-family: cursive;
+  color: hsl(0, 0%, 95%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  font-family: cursive;
+  color: hsl(0, 0%, 95%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.one {
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.two {
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.three {
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.dans {
+  font-size: 19px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.choose {
+  font-size: 13px;
+  margin: 30px 40px;
+  color: hsla(0, 0%, 100%, 0.521);
+}
+.uvs {
+  font-size: 19px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.take {
+  font-size: 13px;
+  margin: 30px 40px;
+  color: hsla(0, 0%, 100%, 0.521);
+}
+.ury {
+  font-size: 19px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.cruise {
+  font-size: 13px;
+  margin: 30px 40px;
+  color: hsla(0, 0%, 100%, 0.521);
+}
+.learn {
+  width: 120px;
+  height: 38px;
+  margin: 80px 40px;
+  border-radius: 25px;
+  border: none;
+  color: hsl(31, 77%, 52%);
+}
+.learntwo {
+  width: 120px;
+  height: 38px;
+  margin: 80px 40px;
+  border-radius: 25px;
+  border: none;
+  color: hsl(184, 100%, 22%);
+}
+.learnthree {
+  width: 120px;
+  height: 38px;
+  margin: 80px 40px;
+  border-radius: 25px;
+  border: none;
+  color: hsl(179, 100%, 13%);
+}

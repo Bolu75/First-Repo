@@ -1,0 +1,30 @@
+.box{
+    width: 150px;
+    height:150px;
+}
+.box_One{
+    background-color: rgba(202, 42, 42, 0.842);
+    visibility: hidden;
+}
+
+.boxTwo{
+    background-color: rgba(255, 255, 0, 0.815);
+    display: inline-block;
+}
+
+.boxThree{
+    background-color: #16ce16e1;
+    display: inline-block;
+}
+
+.boxfour{
+    background-color: rgba(24, 22, 22, 0.849);
+}
+
+.boxFive{
+    background-color: crimson;
+}
+
+.boxSix{
+    background-color: rgb(208, 52, 240);
+}
